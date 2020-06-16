@@ -54,6 +54,6 @@ function añadir(){
     divReloj = document.getElementById("demo");
     let h_rio = h - 5;
     divReloj.innerHTML = `Rio de Janeiro:${h_rio}:${m}:${s}`;
-    setTimeout('añadir()', 1000);
-
+    var btn = document.createElement("demo2");
+    btn.innerHTML = `Barcelona:${h}:${m}:${s}`;
 }
