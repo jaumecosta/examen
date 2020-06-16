@@ -1,0 +1,25 @@
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1em;  
+    background-color:gray;
+    border-radius: 0.5em;
+}
+.titulo button{
+    margin:1em;
+}
+
+
+.reloj{
+    font-family: serif;
+    font-size: 2em;
+    padding: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+
+
+}
+

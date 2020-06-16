@@ -45,11 +45,22 @@
   </head>
   <body>
     <header>
-      <!--
-        *
-        * Bloque HEADER
-        *
-      -->
+      
+      <h1 class="titulo" id="titulo">RELOJ MUNDIAL <button id="boton" class="boton" onclick="añadir()">+</button>
+      </h1>
+      <!-- Muestra los relojes de javascript-->
+      <div id="reloj" class="reloj">
+      <p id="reloj_madrid"></p>
+      <p id="reloj_nueva_york"></p>
+      <p id="reloj_Nueva_Deli"></p>
+      <p id="reloj_Londres"></p>
+      <p id="reloj_Tokyo"></p>
+   
+      <p id="demo"></p>
+      
+    </script>
+    </div>
+
            <figure id="logo">
             <!--
              *
@@ -66,7 +77,6 @@
              *
             -->
           </nav>
-      
     </header>
 
     <main>
@@ -101,5 +111,6 @@
         *
         -->
     </footer>
+    <script src="js/reloj.js"></script>
   </body>
 </html>
